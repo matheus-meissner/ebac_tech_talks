@@ -1,9 +1,14 @@
+@use 'hero';
+@use '../components/_infos_bar';
+@use '../components/_buttons';
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: #fff;
+    list-style: none;
 }
 .container {
     max-width: 960px;
