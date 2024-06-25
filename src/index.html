@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/hero.scss">
     <link rel="stylesheet" href="./components/_infos_bar.scss">
     <link rel="stylesheet" href="./styles/_event.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
@@ -40,8 +41,8 @@
             </div>
         </div>
     </header>
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Font-End</h2>
                 <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, maiores optio! Quas ut atque nesciunt quae praesentium obcaecati ducimus dolor ipsam mollitia provident a placeat, iste dolores. Ea, dolore suscipit.</p>
@@ -49,6 +50,34 @@
             <img class="event__image" src="./images/frontend.png" alt="Font-end">
         </div>
     </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Ux-Ui</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, maiores optio! Quas ut atque nesciunt quae praesentium obcaecati ducimus dolor ipsam mollitia provident a placeat, iste dolores. Ea, dolore suscipit.</p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Ux-Ui">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, maiores optio! Quas ut atque nesciunt quae praesentium obcaecati ducimus dolor ipsam mollitia provident a placeat, iste dolores. Ea, dolore suscipit.</p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="Data Science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-End</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, maiores optio! Quas ut atque nesciunt quae praesentium obcaecati ducimus dolor ipsam mollitia provident a placeat, iste dolores. Ea, dolore suscipit.</p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="Back-End">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
